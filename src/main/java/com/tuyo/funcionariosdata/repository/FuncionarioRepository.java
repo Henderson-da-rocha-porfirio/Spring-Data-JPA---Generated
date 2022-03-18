@@ -1,4 +1,4 @@
-package com.tuyo.funcionariosdata.entities;
+package com.tuyo.funcionariosdata.repository;
 
 import com.tuyo.funcionariosdata.funcionario.Funcionario;
 import org.springframework.data.repository.CrudRepository;

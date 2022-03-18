@@ -1,4 +1,4 @@
-package com.tuyo.funcionariosdata.funcionario;
+package com.tuyo.funcionariosdata.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
