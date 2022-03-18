@@ -16,9 +16,8 @@ class FuncionariosdataApplicationTests {
     void testCreateFuncionario() {
 
         Funcionario funcionario = new Funcionario();
-		funcionario.setId(12345);
         funcionario.setName("John");
 
         repository.save(funcionario);
-    }-
+    }
 }
