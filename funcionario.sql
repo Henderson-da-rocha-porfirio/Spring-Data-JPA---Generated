@@ -1,5 +1,5 @@
--- Tabela Funcionario depois que a tabela ger_id ( tabela geradora de id ) tiver sido criada. 
+-- auto-increment em postgresql
 create table funcionario(
-id int PRIMARY KEY,
+id SERIAL PRIMARY KEY,
 name varchar(20)
 )
