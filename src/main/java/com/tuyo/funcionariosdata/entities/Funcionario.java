@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 public class Funcionario {
-
+   // Como este campo é auto-incremento ou serial(no postgresql) no database, por isso nós usaremos um gerador: @GeneratedValue
    // @TableGenerator(name = "funcionarios_gen",table = "ger_id",pkColumnName = "ger_name",valueColumnName = "ger_val ",allocationSize=100)        //Colocamos um nome para a tabela geradora. E em table, o nome da tabela como está no banco.
     @GenericGenerator(name = "func_id",strategy = "com.tuyo.funcionariosdata.GeradorIDRandom")
     @GeneratedValue(generator = "func_id")
